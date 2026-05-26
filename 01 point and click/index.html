@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos e cachorros</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="src/favicon.ico">
+</head>
+<body>
+    <div id="container">
+        <h1>Gatos e Cachorros</h1>
+        <h3>encontre os Gatos e cachorros</h3>
+        <div id="scenery"></div>
+
+        <div id="ui-panel">
+            <div class="pet-panel">
+
+                <div class="pet-config">
+                    <img src="src/cat.png">
+                    <p id="feedback-cat">Gatos: <span id="collected-cat">0</span>/<span id="total-cat">10</span></p>
+                </div>
+                <div class="pet-config">
+                    <img src="src/dog.png">
+                    <p id="feedback-dog">cachorros: <span id="collected-dog">0</span>/<span id="total-dog">10</span></p>
+                </div>
+            </div>
+            <div class="btn-panel">
+                <button id="btn-show" class="btn-config">mostrar pets</button>
+                <button id="btn-reset" class="btn-config">reiniciar</button> 
+    
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
